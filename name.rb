@@ -4,10 +4,8 @@
 
 print 'Please type your first name:'
 first_name = gets.chomp
-
 print 'Please type you last name:'
 last_name = gets.chomp
-
 puts "It is nice to meet you, #{first_name} #{last_name}!"
 
 # Time to solve this exercise with the solution from LS.
@@ -32,4 +30,19 @@ full_name = gets.chomp
 
  10.times do
    puts full_name
- end 
+ end
+
+
+# 4. Modify name.rb again so that it fist asks the user for their
+# first name, saves it into a variable, and then does the same
+# for the last name. Then outputs their full name all at once.
+
+print 'Please type your first name:'
+first_name = gets.chomp
+print 'Please type you last name:'
+last_name = gets.chomp
+puts "#{first_name} #{last_name}"
+
+# Below is another puts syntax to practice how LS resolved exercise number 4.
+
+puts "Great. So your full name is " + first_name + " " + last_name
